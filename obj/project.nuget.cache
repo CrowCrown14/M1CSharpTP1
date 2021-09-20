@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EPG1O/l5cCNCsIM83XOcls9YUZ4VMcVr1Bi/PJIHjkcJePhVkeFdA0UZBFJ9byhCfZr6KlWyUJ+s6SH6tDlBaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CrowCrown\\Desktop\\EFREI\\4e annee\\C#\\C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CrowCrown\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
