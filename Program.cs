@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-using System.Text.Json;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace C_
 {
@@ -210,8 +210,8 @@ namespace C_
             }
             else {
                 string jsonText = File.ReadAllText(path);
-                JObject rss = JObject.Parse(jsonText);
-                Console.WriteLine(rss);
+                JObject jObj = (JObject) JsonConvert.DeserializeObject(jsonText);
+                Console.WriteLine(jObj.GetValue("data"));
             }
         }
 
